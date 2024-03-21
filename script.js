@@ -56,3 +56,16 @@ const typed = new Typed(".multi-text", {
   backDelay: 1000,
   loop: true,
 });
+
+// Contact Form
+const section = document.getElementById('contact');
+    section.addEventListener('submit', function(event) {
+        const message = document.getElementById('message').value.trim();
+
+        if (message === '') {
+            document.getElementById('messageError').textContent = alert('Message is required');
+            event.preventDefault(); // Prevent form submission
+        } else {
+            document.getElementById('messageError').textContent = '';
+        }
+    });

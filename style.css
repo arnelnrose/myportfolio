@@ -44,11 +44,11 @@ section {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  box-shadow: 1px 1px 3px 1px rgba(190, 190, 90, 0.2);
+  box-shadow: 1px 1px 3px 1px rgba(94, 94, 94, 0.2);
 }
 
 .header.sticky {
-  border-bottom: 0.1rem solid rgba 0, 0, 0, 0.2;
+/*   border-bottom: 0.1rem solid rgba 0, 0, 0, 0.2; */
 }
 
 .logo {
